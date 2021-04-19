@@ -25,7 +25,7 @@ public class FileChanger {
 
 		//tries to scan, if error, then returns false
 		try { 
-			File file = new File("Data/data.txt");
+			File file = new File("Resources/Data/data.txt");
 			@SuppressWarnings({ "unused", "resource" })
 			Scanner fileReader = new Scanner(file);
 			isFile = true;
@@ -45,7 +45,7 @@ public class FileChanger {
 		
 		//tries to create file, error if not able to create one
 		try {
-			File file = new File("Data/data.txt");
+			File file = new File("Resources/Data/data.txt");
 			file.createNewFile();
 		} catch (IOException e) {
 			System.out.println("Error in createFile()");
@@ -65,7 +65,7 @@ public class FileChanger {
 		int num = 0; //number for which line to start inputting into Data object d
 		//tries to read 'data.txt' and then input it into Data object d
 		try {
-			File file = new File("Data/data.txt");
+			File file = new File("Resources/Data/data.txt");
 			Scanner fileReader = new Scanner(file);
 
 			//keeps reading for every line in 'data.txt'
@@ -90,7 +90,7 @@ public class FileChanger {
 	 * @throws IOException error if FileWriter runs into an issue with writing to 'data.txt'
 	 */
 	public static void writeFile(ArrayList<String> info) throws IOException {
-		FileWriter writer = new FileWriter("Data/data.txt");
+		FileWriter writer = new FileWriter("Resources/Data/data.txt");
 		
 		// loops through array
 		for (String s : info) {

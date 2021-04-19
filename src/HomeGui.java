@@ -238,7 +238,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	 * @param e ActionEvent from HomeGui JButtons
 	 */
 	public void actionPerformed(ActionEvent e) {
-		ImageIcon logo = new ImageIcon("src/logo.png");
+		ImageIcon logo = new ImageIcon("Resources/logo.png");
 		
 		if(e.getSource() == course1) {
 			//Opens links for course1
@@ -386,7 +386,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	    courseWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    courseWindow.setBackground(new Color(211,211,211));
 	    
-	    ImageIcon logo = new ImageIcon("src/logo.png");
+	    ImageIcon logo = new ImageIcon("Resources/logo.png");
 		courseWindow.setIconImage(logo.getImage());
 	    
 		courseWindow.setVisible(true);
