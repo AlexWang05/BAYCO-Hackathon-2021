@@ -196,7 +196,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	    JPanel header = new JPanel();
 	    header.setBackground(new Color(79, 93, 117));
 	    title = new JTextPane();
-	    title.setText("Schedule Planner");
+	    title.setText("Link Saver");
 	    title.setEditable(false);
 	    title.setAlignmentX(CENTER_ALIGNMENT);
 	    title.setFont(new Font("Montserrat", Font.PLAIN, 40));
