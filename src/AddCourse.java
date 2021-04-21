@@ -139,7 +139,8 @@ public class AddCourse extends JFrame implements ActionListener {
 	    	errorMessage1.setBackground(new Color(211,211,211));
 	    	errorMessage1.setVisible(true);
 	    	
-	    	errorMessage1.setIconImage(logo.getImage());
+	    	 ImageIcon logo1 = new ImageIcon("Resources/logo.png");
+	    	errorMessage1.setIconImage(logo1.getImage());
 		}
 	    //Checks if error message is dismissed
 	    if(ErrorMessage.isDismissed()==true) {
