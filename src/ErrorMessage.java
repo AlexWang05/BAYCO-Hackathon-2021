@@ -47,6 +47,9 @@ public class ErrorMessage extends JFrame implements ActionListener {
 	    dismiss.setBackground(new Color(79, 93, 117));
 	    dismiss.setForeground(Color.WHITE);
 	    dismiss.addActionListener(this);
+	    dismiss.setOpaque(false);
+	    dismiss.setOpaque(false);
+	    dismiss.setBorderPainted(false);
 	    this.add(dismiss);
 	    foot.add(dismiss);
 	    foot.setBackground(new Color(79, 93, 117));

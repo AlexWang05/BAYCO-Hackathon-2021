@@ -74,16 +74,24 @@ public class AddCourse extends JFrame implements ActionListener {
 	    panel.add(inputMeetingLink);
 	
 	    //Add class button
-	    addClass = new JButton("Add Class");
-	    addClass.addActionListener(this);
+	    JPanel footer = new JPanel();
+	    GridLayout footLayout = new GridLayout(1,1);
+	    footer.setLayout(footLayout);
+	    addClass = new JButton();
+	    addClass.setText("Add Class");
 	    addClass.setBackground(new Color(79, 93, 117));
-	    addClass.setFont(new Font("Montserrat", Font.PLAIN, 20));
-	    addClass.setForeground(new Color(255,255,255));
+	    addClass.setForeground(Color.WHITE);
+	    addClass.addActionListener(this);
+	    addClass.setOpaque(false);
+	    addClass.setBorderPainted(false);
+	    this.add(addClass);
+	    footer.add(addClass);
+	    footer.setBackground(new Color(79, 93, 117));
 	
 	    //Container
 	    Container c = getContentPane();
 	    c.add(panel, BorderLayout.CENTER);
-	    c.add(addClass, BorderLayout.SOUTH);
+	    c.add(footer, BorderLayout.SOUTH);
 	  }
 	
 	  /**
