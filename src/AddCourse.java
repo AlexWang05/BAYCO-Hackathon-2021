@@ -46,7 +46,7 @@ public class AddCourse extends JFrame implements ActionListener {
 	    panel.add(nameLabel);
 	    inputCourseName = new JTextField(20);
 	    inputCourseName.setHorizontalAlignment(JTextField.RIGHT);
-	    inputCourseName.setBackground(new Color(230,230,225));
+	    inputCourseName.setBackground(new Color(255,255,255));
 	    inputCourseName.setFont(new Font("Montserrat", Font.PLAIN, 17));
 	    inputCourseName.setText(d.getCourseName(num));
 	    panel.add(inputCourseName);
@@ -57,7 +57,7 @@ public class AddCourse extends JFrame implements ActionListener {
 	    panel.add(courseLabel);
 	    inputCourseLink = new JTextField(20);
 	    inputCourseLink.setHorizontalAlignment(JTextField.RIGHT);
-	    inputCourseLink.setBackground(new Color(225,225,225));
+	    inputCourseLink.setBackground(new Color(255,255,255));
 	    inputCourseLink.setFont(new Font("Montserrat", Font.PLAIN, 17));
 	    inputCourseLink.setText(d.getCourseLink(num));
 	    panel.add(inputCourseLink);
@@ -68,7 +68,7 @@ public class AddCourse extends JFrame implements ActionListener {
 	    panel.add(linkLabel);
 	    inputMeetingLink = new JTextField(20);
 	    inputMeetingLink.setHorizontalAlignment(JTextField.RIGHT);
-	    inputMeetingLink.setBackground(new Color(225,225,225));
+	    inputMeetingLink.setBackground(new Color(255,255,255));
 	    inputMeetingLink.setFont(new Font("Montserrat", Font.PLAIN, 17));
 	    inputMeetingLink.setText(d.getMeetingLink(num));
 	    panel.add(inputMeetingLink);
