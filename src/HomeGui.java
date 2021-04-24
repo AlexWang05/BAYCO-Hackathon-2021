@@ -238,7 +238,6 @@ public class HomeGui extends JFrame implements ActionListener {
 	 * @param e ActionEvent from HomeGui JButtons
 	 */
 	public void actionPerformed(ActionEvent e) {
-		ImageIcon logo = new ImageIcon("Resources/logo.png");
 		
 		if(e.getSource() == course1) {
 			//Opens links for course1
@@ -295,7 +294,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	    	course.setBounds(500, 500, 550, 350);
 	    	course.setBackground(new Color(211,211,211));
 	    	course.setVisible(true);
-	    	course.setIconImage(logo.getImage());
+	    	course.setIconImage(Main.getIcon());
 		}
 		if(e.getSource() == editCourse2) {
 			//Opens an AddCourse for course2 to edit its links/name
@@ -304,7 +303,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	    	course.setBounds(500, 500, 550, 350);
 	    	course.setBackground(new Color(211,211,211));
 	    	course.setVisible(true);
-	    	course.setIconImage(logo.getImage());
+	    	course.setIconImage(Main.getIcon());
 		}
 		if(e.getSource() == editCourse3) {
 			//Opens an AddCourse for course3 to edit its links/name
@@ -313,7 +312,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	    	course.setBounds(500, 500, 550, 350);
 	    	course.setBackground(new Color(211,211,211));
 	    	course.setVisible(true);
-	    	course.setIconImage(logo.getImage());
+	    	course.setIconImage(Main.getIcon());
 		}
 		if(e.getSource() == editCourse4) {
 			//Opens an AddCourse for course4 to edit its links/name
@@ -322,7 +321,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	    	course.setBounds(500, 500, 550, 350);
 	    	course.setBackground(new Color(211,211,211));
 	    	course.setVisible(true);
-	    	course.setIconImage(logo.getImage());
+	    	course.setIconImage(Main.getIcon());
 		}
 		if(e.getSource() == editCourse5) {
 			//Opens an AddCourse for course5 to edit its links/name
@@ -331,7 +330,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	    	course.setBounds(500, 500, 550, 350);
 	    	course.setBackground(new Color(211,211,211));
 	    	course.setVisible(true);
-	    	course.setIconImage(logo.getImage());
+	    	course.setIconImage(Main.getIcon());
 		}
 		if(e.getSource() == editCourse6) {
 			//Opens an AddCourse for course6 to edit its links/name
@@ -340,7 +339,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	    	course.setBounds(500, 500, 550, 350);
 	    	course.setBackground(new Color(211,211,211));
 	    	course.setVisible(true);
-	    	course.setIconImage(logo.getImage());
+	    	course.setIconImage(Main.getIcon());
 		}
 		if(e.getSource() == editCourse7) {
 			//Opens an AddCourse for course7 to edit its links/name
@@ -349,7 +348,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	    	course.setBounds(500, 500, 550, 350);
 	    	course.setBackground(new Color(211,211,211));
 	    	course.setVisible(true);
-	    	course.setIconImage(logo.getImage());
+	    	course.setIconImage(Main.getIcon());
 		}
 		if(e.getSource() == editCourse8) {
 			//Opens an AddCourse for course8 to edit its links/name
@@ -358,7 +357,7 @@ public class HomeGui extends JFrame implements ActionListener {
 	    	course.setBounds(500, 500, 550, 350);
 	    	course.setBackground(new Color(211,211,211));
 	    	course.setVisible(true);
-	    	course.setIconImage(logo.getImage());
+	    	course.setIconImage(Main.getIcon());
 		}
 	}
 	

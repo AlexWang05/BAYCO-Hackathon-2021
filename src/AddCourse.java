@@ -100,8 +100,6 @@ public class AddCourse extends JFrame implements ActionListener {
 	   * @param e ActionEvent for 'Add Course' button
 	   */
 	  public void actionPerformed(ActionEvent e) {
-		ImageIcon logo = new ImageIcon("src/logo.png");
-		 
 		//Takes in user's input and replaces it in the Data file
 	    courseName = inputCourseName.getText();
 	    courseLink = inputCourseLink.getText();
@@ -138,9 +136,7 @@ public class AddCourse extends JFrame implements ActionListener {
 	    	errorMessage1.setBounds(500, 500, 300, 170);
 	    	errorMessage1.setBackground(new Color(211,211,211));
 	    	errorMessage1.setVisible(true);
-	    	
-	    	 ImageIcon logo1 = new ImageIcon("Resources/logo.png");
-	    	errorMessage1.setIconImage(logo1.getImage());
+	    	errorMessage1.setIconImage(Main.getIcon());
 		}
 	    //Checks if error message is dismissed
 	    if(ErrorMessage.isDismissed()==true) {
